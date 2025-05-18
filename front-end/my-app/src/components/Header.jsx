@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 
@@ -7,10 +8,10 @@ const Header = () => {
     <>
     <header className=' shadow-md  '>
         <div className='flex  justify-between max-w-7xl  mx-auto px-4 sm:px-8 py-4 '>
-            <div className='flex items-center sm:max-w-12 '>
+            <Link to='/' className='flex items-center sm:max-w-12 '>
                 <img className='h-14  ' src='./assets/azulDestino.png' alt="" />
                 <h1 className='text-lg text-sky-600 font-bold lg:text-2xl'>AzulDestino</h1>
-            </div>
+            </Link>
             <div className=' hidden lg:flex items-center border border-sky-600 rounded-3xl shadow-md shadow-sky-200 px-4 py-1'>
                 <p className='pr-6  border-r-2 border-sky-600'>Qualquer lugar</p>
                 <p className='pr-8 m-2 border-r-2 border-sky-600'>Qualquer semana</p>
