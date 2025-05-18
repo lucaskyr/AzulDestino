@@ -2,12 +2,10 @@ import React from 'react';
 
 const Login = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center">
+    <div className="h-screen flex items-center justify-center pb-20">
       <div className="flex flex-col items-center gap-6 p-6">
         <div className="flex flex-col items-center gap-2">
-          <img src="./assets/azulDestino.png" alt="Logo" className="h-24" />
-          <h1 className="font-bold text-sky-600 text-xl">AzulDestino</h1>
-          <h3 className="text-gray-600">Faça seu Login</h3>
+          <h3 className="font-bold text-3xl">Faça seu Login</h3>
         </div>
 
         <div className="flex flex-col items-center gap-3">
